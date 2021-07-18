@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sortcut icon" href="assets/pizza.ico">
+    <link rel="stylesheet" href="styles.css"> <!-- ESTILOS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+JP:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="scripts/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider();
+        });
+    </script>
+    <title>CarGu Pizza</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a id="logo-nav" class="navbar-brand" href="index.html">CarGu Pizza</a>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="cargu-menu.html">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cargu-location.html">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id='boton-nosotros'
+                        onclick="alert('Disponible próximamente; página en mantenimiento.');" href="#">Nosotros</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <h1>CarGu Pizza</h1>
+
+            <p>
+                ¡Deleita tu paladar!
+            </p>
+            <button class="btn btn-dark" onclick="alert('Disponible próximamente; página en mantenimiento.');">
+                Sobre nosotros
+            </button>
+        </div>
+    </header>
+
+
+    <section style="background-color:#212529 ;">
+        <div class="container mt-1 mb-2">
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div title="8 chefs en una cocina con elementos de bioseguridad" class="cover-2"
+                            style="background-image:url(https://github.com/Carlosestc1/CarGuPizza/blob/main/assets/rsz_imagen-chefs.jpg?raw=true)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">La mejor elección de comida Gourmet</h5>
+                            <p class="card-text">Tenemos la mejor selección de chefs especializados para que te
+                                lleves
+                                la
+                                mejor
+                                experiencia en CarGu.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div title="Señalización urbana de con una cara feliz con la frase STAY SAFE" class="cover-2"
+                            style="background-image:url(https://github.com/Carlosestc1/CarGuPizza/blob/main/assets/rsz_imagen-protocolos.jpg?raw=true)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Protocolos de bioseguridad</h5>
+                            <p class="card-text">Estamos concientes de la situación por la que pasamos y estamos
+                                capacitados para cuidarte.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div title="Varias manos apuntando a una aplicación de GPS en un celular" class="cover-2"
+                            style="background-image:url(https://github.com/Carlosestc1/CarGuPizza/blob/main/assets/rsz_imagen-map.jpg?raw=true)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nos seguiremos extendiendo</h5>
+                            <p class="card-text">Actualmente tenemos una sede en Neiva, pero seguiremos
+                                extendiéndonos
+                                por
+                                toda la ciudad. ¡Estate atento!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class=flexslider>
+        <ul class="slides">
+            <li class="flex-control-nav">
+                <img src="assets/carrousel-image1.jpg" class="foto-carrusel-fotos" alt="">
+                <section class="flex-caption">
+                    <p type="button" onclick="location.href='cargu-menu.html'">
+                        DISFRUTA DE NUESTRO MENÚ
+                    </p>
+            </li>
+            <li class="flex-control-nav">
+                <img src="assets/carrousel-image3.jpg" class="foto-carrusel-fotos" alt="">
+                <section class="flex-caption">
+                    <p>
+
+                    </p>
+                </section>
+                </section>
+            </li>
+            <li class="flex-control-nav">
+                <img src="assets/carrousel-image2.jpg" class="foto-carrusel-fotos" alt="">
+                <section class="flex-caption">
+                    <p type="button" onclick="location.href='cargu-location.html'">
+                        EL LUGAR MÁS AGRADABLE
+                    </p>
+                </section>
+            </li>
+            <li class="flex-control-nav">
+                <img src="assets/carrousel-image4.jpg" class="foto-carrusel-fotos" alt="">
+                <section class="flex-caption">
+                    <p>
+
+                    </p>
+                </section>
+            </li>
+            </section>
+            </li>
+            <li class="flex-control-nav">
+                <img src="assets/carrousel-image6.jpg" class="foto-carrusel-fotos" alt="">
+                <section class="flex-caption">
+                    <p type="button" onclick="alert('Página disponible próximamente; en mantenimiento.')">
+                        ACERCA DE NOSOTROS
+                    </p>
+                </section>
+            <li class="flex-control-nav">
+                <img src="assets/carrousel-image5.jpg" class="foto-carrusel-fotos" alt="">
+                <section class="flex-caption">
+                    <p>
+
+                    </p>
+
+            </li>
+        </ul>
+    </div>
+
+    <footer class="mt-1">
+
+        <div class="container-footer-all">
+
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Más información</h1>
+
+                    <p>CarGu Pizza es un restaurante de comida italiana ubicado en la ciudad de Neiva fundado por Daniel
+                        Felipe Gutiérrez Maya y Carlos Esteban Castro Caicedo.
+                        Gracias a ellos se ha llevado el nivel de lacomida italiana a otro extremo, con recetas únicas y
+                        Gourmet.
+                    </p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Redes Sociales</h1>
+
+                    <div class="row">
+                        <img src="assets/facebook.png">
+                        <label type="button">Síguenos en Facebook</label>
+                    </div>
+                    <div class="row">
+                        <img src="assets/twitter.png">
+                        <label type="button">Síguenos en Twitter</label>
+                    </div>
+                    <div class="row">
+                        <img src="assets/instagram.png">
+                        <label type="button">Síguenos en Instagram</label>
+                    </div>
+                    <div class="row">
+                        <img src="assets/pinterest.png">
+                        <label type="button">Síguenos en Pinterest</label>
+                    </div>
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Info. de contacto</h1>
+
+                    <div class="row2">
+                        <img src="assets/house.png">
+                        <label>Neiva, Huila, Colombia
+                            Calle 19 # 45-04, Colegio Colombo Inglés del Huila
+                        </label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="assets/smartphone.png">
+                        <label>+57 123 456 7890
+                            +57 098 765 4321
+                        </label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="assets/contact.png">
+                        <label>cargupizzarestaurante
+                            @dominioalgo.com.co</label>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-footer">
+            <div class="footer">
+                <div class="copyright">
+                    © 2021 Todos los Derechos Reservados | <a href="#">Carlos & Guti
+                    </a>
+                </div>
+
+                <div class="information">
+                    <a href="">Nosotros</a> | <a href="">Política de Privacidad</a> | <a href="">Términos y
+                        Condiciones</a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

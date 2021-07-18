@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #212529;
+}
+body::-webkit-scrollbar {
+    width: 6.5px;
+    background: #181a1b;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #363a3d;
+    border-radius: 40px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Fjalla One', sans-serif; 
+}
+
+.cover {
+    height: 400px;
+    color: white;
+    background-image: url(https://github.com/Carlosestc1/CarGuPizza/blob/main/assets/imagen-portada.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.781);
+    background-blend-mode: darken;
+}
+
+
+.cover-2 {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+}
+
+.card-title {
+    min-height: 3rem;
+}
+
+.card-text {
+    min-height: 5rem;
+}
+
+#logo-nav {
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 25px;
+    text-shadow: 4px;
+}
+
+.responsive-iframe {
+    position: relative;
+    padding-top: 56.25%;
+}
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 18px;
+}
+
+footer{
+    width: 100%;
+    background: #212529;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 65px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3 {
+        margin-top: 40px;
+    }
+}
+
+/* Barra de scroll /*
