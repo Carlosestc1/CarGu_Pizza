@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
@@ -117,7 +121,7 @@ footer{
 
 .row img{
     width: 65px;
-    height: 36px;
+    height: 40px;
 }
 
 .row label{
@@ -195,4 +199,66 @@ footer{
     }
 }
 
-/* Barra de scroll /*
+
+.tira-ofertas {
+   overflow-x: scroll;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+.tira-ofertas::-webkit-scrollbar {
+    width: 6.5px;
+    background: #181a1b;
+    border-radius: 40px;;
+}
+.tira-ofertas::-webkit-scrollbar-thumb {
+    background: #363a3d;
+    border-radius: 40px;
+}
+
+.contenedor-tira {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contenedor-tira .card {
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+    border-radius: 15px;
+}
+
+#titulo-ofertas{
+    text-align: center;
+    padding-top: 2px;
+    color: white;
+}
+
+#parrafo-ofertas {
+    color: white;
+    text-align: center;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
